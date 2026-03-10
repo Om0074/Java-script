@@ -1,0 +1,132 @@
+learn the git and git hub throu := https://www.youtube.com/watch?v=r8QQOAicu8Y
+
+Why we use Git and Git Hub ?
+Ans:- We want to leart the git becaues we need to share a large amout of data code withe our friends.
+
+Central database ?
+Ans:- When ever we need to share/stoar the code for shareing with the friends or saving
+the new chage we use central database.
+
+commands for the configuration of laptop
+
+git config -- global user.name "Om Muthe"
+
+git config -- global user.email "mutheombharat@gmail.com"
+
+git config -- global core.editor "code -- wait" :- it exicuted when their is error into the code 
+
+git config -- global core.autocrlf :- when we use different operating system the error ocurse so, 
+to make make changes accordind to the op this is cm is used 
+
+git installation
+
+stages :
+U - untracked
+A -added . or staged
+C - Commited
+
+commands you need to know -
+git status -s => to know current status of unstaged and staged files
+git log --oneline => to know current status of saved points
+
+managing your own projects
+making git available in our project
+making a checkpoint or saved point
+    adding files
+    staging them
+    commiting them
+going back to some previous saved point
+    logging everything
+    reverting back to the previous saved point
+
+To make a file that we wanted to ignore then thare is a file name => .gitigno
+
+git reset -hard HEAD~1 => is used to go back by 1 saved commit
+
+## WHAT MATTERS
+
+WHAT MATTERS
+
+VIDEO 1 - OVERVIEW
+PROBLEM AND WHY COMRANIES USE GIT AND GITHUB
+
+VIDEO 2 - THE ULTIMATE BASICS
+
+git ko enable karna - git init
+untracked files
+git ke saath files add karna - staging
+saved point ya checkpoint create karna - git commit
+kisi pichhle checkpoint par waapas jaana - git reset
+
+VIDEO 3 - STATUS AND LOGS - MAKING POSSIBILITIES - BRANCHING
+
+status dekhna
+logs check karna with graph option
+branch samajhna
+branch merge karna
+
+merging techniques - ff merge, three way merge, squash merging, recursive strategy merge,
+rebase and merge
+
+conflicts handle karna
+branch delete karna
+~ stashing samajhna
+
+jab bhi aap ek folder bnaate hai git ko kuchh nahi pata aapke folder
+ke baare mein, isliye aap waha pe git ko initialize karte ho, ab git
+ko permissions mili hai to git aapke folder ko pehchaanta hai, to ab
+kyuki git kaam kar skta hai is folder per ab ham yaha par untracked,
+tracked, modified, staged, and saved checkpoints create kar skte hai
+jaise ki aap chaahe to kisi bhi moment par ye check kr skte ho aapki 
+kitni files kis stage par hai
+
+-> initialize karo
+-> check kr skte ho aap konsi file kis stage mein hai -> git status -s
+-> check kr skte ho aap kitne saved checkpoints hai -> git log -oneline
+-- graph
+
+git status bataata hai commit ke pahle and baad ki file stage
+git log bataata hai saare commit histories
+
+=> learn to make the Branch / clone of code
+
+A. Create a branch => git branch (branch name)
+B. TO Switch branch => git switch (the name of branch)
+C. To mearg the branch :-
+      1. we need to go to the main branch 
+      2. => git merge (Name of branch)
+D. TO delete the branch => git branch -d (Name of branch)
+E. TO check the branches => git branch 
+
+merging techniques - ff merge, three way merge, squash merging, recursive
+strategy merge, rebase and merge
+
+conflicts handle karna
+branch delete karna
+~ stashing samajhna
+
+new
+
+jab aap kisi branch mein kaam kr rhe ho and aapne kuchh code likha hai and aapne us
+code ko commit nahi kiya hai, aur aap doosri branch mein jaane ki koshish krte ho
+to git aapko bolta hai ki bhai saved nahi changes delete o jaayege hum chaahe to un
+chnages ko delete hone yaa fir un chnages ko draft kr skte hai, jab bhi draft
+karege to wo changes naa hi delete honge na hi add hobnge but beech mein kahi dale
+rahege fir aap us branch mein jab waapas aaye to wo changes waapas se apply kr skte
+ho
+
+When ever we need to switch the branch 
+ ex :- 1. create a branch 
+       at a time we created the branch and also switch it => git switch -C (branch name) 
+
+       2. we add some changes into that branch .
+       
+       3. Then we tried to change the brach withoud commitng the changes in the previous branch. 
+
+       4. We will show an error - overwrite the command it will not save or you can stash it.
+
+       5. For stash the code => git stash 
+
+       6. to apply the stash code => git stash apply
+
+       7. to clear the stash => git stach clear
