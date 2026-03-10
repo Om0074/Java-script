@@ -130,3 +130,41 @@ When ever we need to switch the branch
        6. to apply the stash code => git stash apply
 
        7. to clear the stash => git stach clear
+
+COMMON STEPS
+
+main banda folder and initial files banaayega
+ab usse github par daal de
+collaborators add kare
+
+1.saare bande us repo se cloning karein
+  a. goto the github there go to code section and copy the like 
+  b. command to downlode the code in your pc => git clone (link)
+
+2.[VERY IMPORTANT] apni branch create karein
+  a.TO change the directorey => cd (name of folder).
+  b.creat a branch
+
+3.apna code usi branch mein likhein
+  a. write the code
+  b. => git add.
+  c. => git commit -m "(name of brach to add)"
+
+4.complete hone par commit dein and push kar dein
+  a.git push -u origin feature/"last commite name"
+
+5.inform karein teammate ko about the commit
+
+6.merger banda fetch karega and merge karega a
+  a.=> git fetch
+  b. then the the leader will merge the code in the main code 
+  c. Push the code to github => git push origin main
+
+7. when the code is uploded in the git
+   a. => git fetch
+   b. +> git pull
+   c. =>  
+
+new
+TO change the directorey => cd (name of folder).
+
